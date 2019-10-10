@@ -1,5 +1,5 @@
 {
-  "name": "demo",
+  "name": "zhiqiu",
   "version": "1.0.1",
   "scripts": {
     "compile": "./node_modules/typescript/bin/tsc",
@@ -7,5 +7,12 @@
   },
   "devDependencies": {
     "typescript": "^3.3.3333"
-  }
+  },
+  "main": "index.js",
+  "dependencies": {
+    "miniprogram-sm-crypto": "^0.1.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
