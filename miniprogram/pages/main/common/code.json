@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "table": "../../../../components/table/table",
+    "ff-canvas": "../../../../f2-canvas/f2-canvas",
+    "van-button": "../../../../dist/button/index",
+    "van-icon": "../../../../dist/icon/index"
+  }
+}

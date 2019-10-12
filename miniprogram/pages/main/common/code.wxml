@@ -1,0 +1,9 @@
+<view class='code'>
+  <!-- table -->
+  <table caption="表格数据" titles="{{conf.table.titles}}" data="{{conf.table.datas}}" table-height="300" scroll-y="true" col-width="{{conf.table.colWidth}}" bind:rowtap="onRowTap" bind:coltap="onColTap" bind:bottomtap="onBottomTap" />
+  <!-- f2 -->
+  <view class="chart-body">
+    <ff-canvas id="codeF2" canvas-id="codeF2Canvas" opts="{{ optsF2 }}"></ff-canvas>
+  </view>
+  <van-button class='button' type="info" bindtap="back">按钮</van-button>
+</view>

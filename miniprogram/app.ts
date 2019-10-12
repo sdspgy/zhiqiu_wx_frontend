@@ -8,18 +8,15 @@ export interface IMyApp {
 
 App<IMyApp>({
   onLaunch() {
+    // this.login();
+  },
+
+  auth: function () {
     // 展示本地存储能力
     var logs: number[] = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-    // 登录
-    wx.login({
-      success(_res) {
-        // console.log(_res.code)
-        // 发送 _res.code 到后台换取 openId, sessionKey, unionId
-      }
-    })
     // 获取用户信息
     wx.getSetting({
       success: (res) => {
@@ -39,7 +36,9 @@ App<IMyApp>({
         }
       }
     })
-  },
+  }
+
   globalData: {
+    userInfo: null
   }
 })

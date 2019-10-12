@@ -1,12 +1,16 @@
 {
   "pages": [
+    "pages/menu/my",
+    "pages/menu/home",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/main/common/picture",
+    "pages/main/common/code"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "zhiqiu",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
