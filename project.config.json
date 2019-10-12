@@ -6,7 +6,7 @@
 	"miniprogramRoot": "miniprogram/",
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
-	"projectname": "zhiqiu",
+	"projectname": "知秋",
 	"scripts": {
 		"beforeCompile": "npm run tsc",
 		"beforePreview": "npm run tsc",
