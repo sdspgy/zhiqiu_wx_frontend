@@ -16,6 +16,23 @@ App<IMyApp>({
     var logs: number[] = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+    //login
+    wx.login({
+      success: (r) => {
+        var code = r.code;
+        if (code) {
+          wx.getUserInfo({
+            success: (info) => {
+
+            },
+            fail: (error) => {
+
+            }
+          })
+        }
+      }
+    })
+
 
     // 获取用户信息
     wx.getSetting({
@@ -38,7 +55,7 @@ App<IMyApp>({
     })
   }
 
-  globalData: {
+globalData: {
     userInfo: null
   }
 })

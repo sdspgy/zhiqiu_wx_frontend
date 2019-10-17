@@ -10,9 +10,21 @@
   },
   "main": "index.js",
   "dependencies": {
-    "miniprogram-sm-crypto": "^0.1.0"
+    "miniprogram-sm-crypto": "^0.1.0",
+    "vant-weapp": "^1.0.0-beta.0"
   },
-  "author": "",
+  "author": "sdspgy",
   "license": "ISC",
-  "description": ""
+  "description": "zhiqiu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdspgy/zhiqiu_wx_frontend.git"
+  },
+  "keywords": [
+    "xinqing10086"
+  ],
+  "bugs": {
+    "url": "https://github.com/sdspgy/zhiqiu_wx_frontend/issues"
+  },
+  "homepage": "https://github.com/sdspgy/zhiqiu_wx_frontend#readme"
 }
